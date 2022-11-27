@@ -8,11 +8,12 @@
 * Backend packages :  express , bcrypt , body-parser , cors  , dotenv , mongoose , nodemon 
 * Frontend packages : axios , bootstrap , nodemon , react-bootstrap , react-dom , react-router-dom 
 
-**How is it working: Gets the user's information and saves it to the database. While the password is saved in the database, it is encrypted and saved.
-If the user enters the e-mail and password correctly, the user information is saved in the local storage and the information is deleted from the local storage after logging out.**
+How is it working: Gets the user's information and saves it to the database. While the password is saved in the database, it is encrypted and saved.
+If the user enters the e-mail and password correctly, the user information is saved in the local storage and the information is deleted from the local storage after logging out.
 
-**Structure**
+## Structure
 
+```
 ├─ client
 │  ├─ public
 │  │    └─ facicon.ico
@@ -48,4 +49,4 @@ If the user enters the e-mail and password correctly, the user information is sa
 │   └─ userSchema.js
 │
 ├─ README.md
-
+```
