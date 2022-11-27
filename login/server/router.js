@@ -48,7 +48,7 @@ router.post("/login", async (req, res) => {
         const { email, password } = req.body
 
         if(email === "" || password === ""){
-            return res.status(400).json({message: "Enter your email or password"})
+            return res.status(400).json({message: "Enter your email and password"})
         }
 
         const user = await userSchema.findOne({ email }); // girilen email in daha önce databaseye kaydedilmiş mi diye kontrol eder
