@@ -63,6 +63,6 @@ If the user enters the e-mail and password correctly, the user information is sa
  cd client
  npm install 
 
- # Prepare your environment variables with generating .env file as .env.example file
+ # Prepare your environment variables with generating .env file as example.env file
  npm start
 ```
