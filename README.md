@@ -64,5 +64,9 @@ If the user enters the e-mail and password correctly, the user information is sa
  npm install 
 
  # Prepare your environment variables with generating .env file as example.env file
+
+ npm start 
+ cd ..
+ cd server
  npm start
 ```
