@@ -50,3 +50,19 @@ If the user enters the e-mail and password correctly, the user information is sa
 │
 ├─ README.md
 ```
+
+## Installation
+
+```
+ git clone https://github.com/mansuremanastirli/FullStack-Login-System
+ cd FullStack-Login-System
+ cd login 
+ cd server 
+ npm install 
+ cd .. 
+ cd client
+ npm install 
+
+ # Prepare your environment variables with generating .env file as .env.example file
+ npm start
+```
